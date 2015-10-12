@@ -9,9 +9,7 @@ ADD templates/mirthconnect/mirthconnect-install-wrapper.sh /usr/local/mirthconne
 RUN wget http://downloads.mirthcorp.com/connect/3.3.0.7801.b1804/mirthconnect-3.3.0.7801.b1804-unix.sh\
 	&& chmod +x mirthconnect-3.3.0.7801.b1804-unix.sh \
  	&& ./mirthconnect-install-wrapper.sh
-#RUN wget http://downloads.mirthcorp.com/connect/3.2.2.7694.b68/mirthconnect-3.2.2.7694.b68-unix.sh \
- #&& chmod +x mirthconnect-3.2.2.7694.b68-unix.sh \
- #&& ./mirthconnect-install-wrapper.sh
+
 
 ADD templates/etc /etc
 ADD templates/mirthconnect /usr/local/mirthconnect
