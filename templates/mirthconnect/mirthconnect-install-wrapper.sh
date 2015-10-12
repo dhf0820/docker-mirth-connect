@@ -1,6 +1,6 @@
 #!/bin/sh
 
-./mirthconnect-3.2.2.7694.b68-unix.sh <<!
+./mirthconnect-3.3.0.7801.b1804-unix.sh <<!
 
 
 
